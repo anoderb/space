@@ -1,12 +1,11 @@
 import Image from "next/image";
 import { bill} from "@/public/assets/";
-import styles,{layout} from "@/styles/style";
 import React from 'react'
 
 export default function Billing() {
   return (
-    <section id="product" className={layout.sectionReverse}>
-    <div className={layout.sectionImgReverse}>
+    <section id="product" className={'sectionReverse'}>
+    <div className={'sectionImgReverse'}>
       <Image src={bill} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
 
       {/* gradient start */}
@@ -15,12 +14,12 @@ export default function Billing() {
       {/* gradient end */}
     </div>
 
-    <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
+    <div className={'sectionInfo'}>
+      <h2 className={'heading2'}>
         Easily control your <br className="sm:block hidden" /> billing &
         invoicing
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      <p className={`paragraph max-w-[470px] mt-5`}>
         Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio
         aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea
         placerat.
